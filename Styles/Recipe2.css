@@ -1,0 +1,72 @@
+/* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Better control over padding and margins */
+}
+
+body {
+    background-color: #f4ece2; /* Softer background color */
+    font-family: 'Poppins', sans-serif; /* Use Google Fonts for a more modern look */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 80px; 
+    color: #86AB89;
+    transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out; 
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h1:hover {
+    font-size: 90px; 
+    color: #6C8F6C;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centers the image horizontally */
+}
+
+p {
+    font-size: 20px; 
+    color: #333;
+    margin: 20px auto;
+    padding: 15px 20px;
+    max-width: 80%;
+    background-color: #ffffff;
+    border: 2px solid #86AB89;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Aligns the text to the left for better readability */
+}
+
+strong {
+    display: block;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #86AB89; /* Highlights section titles */
+}
+
+ul, ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.6; /* Improves readability */
+}
